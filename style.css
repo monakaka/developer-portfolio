@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    text-align: justify;
 }
 .half{
     width: 50%;
@@ -30,4 +31,19 @@ section{
 .banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.kudal{
+    display: flex;
+    background-image: url(dream-bg.png);
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.become img{
+    width: 500px;
+    padding: 4%;
+    margin: bottom 100px;;
+}
+.developer{
+    width: 50%;
+    padding: 10%;
 }
